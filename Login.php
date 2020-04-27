@@ -55,7 +55,7 @@ else
     	<img src="images/a3.jpg" alt="Image 01" />
         <div id="middle_content">
         	<p>Please use your ATM card or Net Banking for all your purchase make better Digital India.<br />
-            NO CHEQUES, No QUEUES.</p>
+            NO CHEQUES, No Lines.</p>
         </div>
     
      </div>
