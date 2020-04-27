@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Java Script, CSS, HTML" />
+<link href="atmstyle.css" rel="stylesheet" type="text/css" />
+
+<!--<script language="javascript" type="text/javascript">//LINK & SCRIPT SECTION
+function clearText(field)
+{
+    if (field.defaultValue == field.value) field.value = '';
+    else if (field.value == '') field.value = field.defaultValue;
+}
+</script>-->
+<title>ATM System-Service</title>
+</head>
+
+<body>
+<div id="atmheader_wrapper">
+	<div id="atmheader">
+    
+    	<div id="site_title">
+         <h1><img src="images/atmwhite.png" alt="logo" width="80" height="80" /><span>ATM System</span></h1>
+
+        </div> 
+    	<!-- end of site_title -->
+<div id="header_right">
+	Login&nbsp;<a href="Login.php"><img src="shadow/next.png" /></a>
+    Registration&nbsp;<a href="registration.php" id="header_right_img"><img src="shadow/next.png" /></a>
+	<div class="cleaner"></div>
+</div> 
+<div id="atm_middle_wrapper">
+	<div id="atm_middle">
+    
+    	<img src="images/a3.jpg" alt="Image 01" />
+        <div id="middle_content">
+        	<p>Please use your ATM card or Net Banking for all your purchase make better Digital India.<br />
+            NO CHEQUES, No QUEUES.</p>
+        </div>
+    
+     </div>
+</div> 
+
+<!--MENU-->
+ <div id="atm_menu">
+                
+    <ul>
+        <li><a href="index.php">Home</a></li>
+        <li><a href="about.php">About</a></li>
+        <li><a href="service.php" class="current">Services</a></li>
+        <li><a href="contact.php">Contact</a></li>
+    </ul>    	
+
+</div> 
+<!--Services-->
+<div id="atm_content">
+
+	<h2>Our Services</h2>
+    <div id="services">
+       	<div class="s_box">
+            <p>Click Below To Apply For ATM</p>
+            <div class="button"><a href="Applyatm.php">Apply For ATM</a></div>
+		</div>
+        <div id="services">
+       	<div class="s_box">
+            <p>Widrawal</p>
+            <div class="button"><a href="Widrawal.php">For Widrawal</a></div>
+		</div>
+        <div id="services">
+       	<div class="s_box">
+            <p>Change Pin</p>
+            <div class="button"><a href="changePIN.php">Change PIN</a></div>
+		</div>
+     
+     
+        
+<!--ATM FOOTER-->
+<div id="atmfooter_wrapper">
+
+     <div id="atmfooter">
+    
+        Copyright © 2048 <a href="#">Company Name</a>
+    <ul id="footer_left">
+        <li><a href="index.php">Home</a></li>
+        <li><a href="about.php">About</a></li>
+        <li><a href="service.php" class="current">Services</a></li>
+        <li><a href="contact.php">Contact</a></li>
+    </ul> 
+<div id="footer_right">  
+		<a href="#"><img src="images/facebook.png" alt="facebook" /></a>
+ 	    <a href="#"><img src="images/twitter.png" alt="twitter" /></a>
+        <a href="#"><img src="images/linkedin.png" alt="linkin" /></a>
+        <a href="#"><img src="images/myspace.png" alt="myspace" /></a>    
+  <div class="cleaner"></div>
+</div>  
+     <!-- end of templatetooplate_footer -->
+</div>         
+</body>
+</html>
